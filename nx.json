@@ -1,0 +1,22 @@
+{
+  "npmScope": "denncore-playground",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "sock-chat": {
+      "tags": []
+    },
+    "sock-chat-e2e": {
+      "tags": [],
+      "implicitDependencies": ["sock-chat"]
+    }
+  }
+}
